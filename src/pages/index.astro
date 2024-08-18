@@ -17,26 +17,7 @@ const post = await getEntry("posts", "1");
     <title>Astro</title>
   </head>
   <body>
-    <ReactWrapper>
-      <Image src={Katie} alt="Katie Haus" width={200} height={200} />
-    </ReactWrapper>
-
-    <p>Content Collections</p>
-    <Image src={post.data.cover} alt="Katie Haus" width={200} height={200} />
-
-    <p>Public</p>
-    <Image src="/image.jpg" alt="Katie Haus" width={200} height={200} />
-
     <p>Local</p>
     <Image src={Katie} alt="Katie Haus" width={150} height={150} />
-
-    <p>Remote</p>
-    <Image
-      src="https://media.istockphoto.com/id/526060743/photo/guanacoes-in-torres-del-paine-national-park.jpg?s=612x612&w=0&k=20&c=MJ1c29EJ5U5_srIkvm-mzINlHegPCt3tqnfDRjY7qSM="
-      alt=""
-      inferSize
-      width={400}
-      height={160}
-    />
   </body>
 </html>
