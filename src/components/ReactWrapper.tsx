@@ -9,4 +9,5 @@ const ReactWrapper = ({ children }: { children: ReactNode }) => {
     </div>
   );
 };
+
 export default ReactWrapper;
